@@ -15,7 +15,7 @@ brew install minikube
 ```
 Next, launch a VM and specify the CPU & memory required.
 ```
-minikube start --cpus=4 --memory=8192
+minikube start --cpus=4 --memory=8192 --driver=virtualbox
 ```
 ### Deployment via Kubernetes YAML
 Deployment is performed using YAML configuration files provided
